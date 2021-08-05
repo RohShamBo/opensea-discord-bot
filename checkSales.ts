@@ -20,6 +20,8 @@ const  discordSetup = async (): Promise<TextChannel> => {
   })
 }
 
+channel.send('Checking on the whales...)
+	     
 const buildMessage = (sale: any) => (
   new Discord.MessageEmbed()
 	.setColor('#0099ff')
